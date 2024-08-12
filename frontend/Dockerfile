@@ -1,8 +1,8 @@
 FROM python:3.12.5-slim
 
-WORKDIR /app
+WORKDIR /insight-nexus
 
-COPY . /app
+COPY . /insight-nexus
 
 RUN pip3 install -r requirements.txt
 

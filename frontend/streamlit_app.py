@@ -13,7 +13,7 @@ with st.sidebar:
     #orientation = "horizontal",
 )
 if selected == "Home":
-    st.header('App template')
+    st.header('INSIGHT NEXUS')
     # Create a row layout
     c1, c2= st.columns(2)
     c3, c4= st.columns(2)
