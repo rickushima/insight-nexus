@@ -5,7 +5,7 @@ services:
       - 8501:8501
     volumes:
       - ./frontend:/insight-nexus
-    restart: always
+    restart: "no"
     networks:
       - main-net
     container_name: insnex-frontend
@@ -19,7 +19,7 @@ services:
       MONGO_INITDB_ROOT_PASSWORD: insightnex
     volumes:
       - ./backend/database/mongodb_data:/data/db/
-    restart: always
+    restart: "no"
     networks:
       - main-net
     container_name: insnex-backend-mongodb
